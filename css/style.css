@@ -190,15 +190,14 @@ img {
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 8px;
   width: 264px;
   height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .features-icon-item {
-  /* position: relative; */
   width: 64px;
   height: 64px;
 }
@@ -222,8 +221,8 @@ img {
 }
 /* Team */
 
-.container-team-member {
-}
+/* .container-team-member {
+} */
 .team-hedder {
   font-weight: 700;
   font-size: 36px;
@@ -261,6 +260,13 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   line-height: 1.5;
+}
+.team-card-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  fill: #4d5ae5;
 }
 
 .container-team-member {
