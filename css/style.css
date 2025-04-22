@@ -198,8 +198,9 @@ img {
   align-items: center;
 }
 .features-icon-item {
-  width: 64px;
-  height: 64px;
+  padding: auto auto;
+  /* width: 64px;
+  height: 64px; */
 }
 .features {
   padding: 120px 0;
@@ -266,7 +267,15 @@ img {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  fill: #4d5ae5;
+  fill: #f4f4fd;
+}
+.team-card-social-item {
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
 }
 
 .container-team-member {
